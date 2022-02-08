@@ -5,5 +5,5 @@ class Functor:
         self.f = function
     def __call__(self, object):
         return self.F(object)
-    def Ff(self, object):
+    def Fof(self, object):
         return o([self.F, self.f])(object)
