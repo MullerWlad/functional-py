@@ -1,4 +1,4 @@
-from composition import o
+from functional.composition import o
 class Functor:
     def __init__(self, functor: object, function: object):
         self.F = functor
