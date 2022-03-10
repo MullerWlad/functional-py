@@ -25,6 +25,7 @@ class Functor:
             return answer
 
 class FQuantity:
+    @staticmethod
     def __Fq(qua: list, container: object) -> list:
         match qua:
             case []:
